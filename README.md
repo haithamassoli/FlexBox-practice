@@ -1,2 +1,2 @@
 # FlexBox-practice
-## https://haithamassoli.github.io/FlexBox-practice/
+## https://haithamassoli.github.io/Grid-practice/
