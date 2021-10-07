@@ -46,14 +46,14 @@ small{
   color: rgb(163, 158, 158);
 }
 
-@screen (max-width:860px){
+@media (max-width:860px){
   grid-template-columns: repeat(3,1fr);
 }
 
-@screen (max-width:650px){
+@media (max-width:650px){
   grid-template-columns: repeat(2,1fr);
 }
 
-@screen (max-width:400px){
+@media (max-width:400px){
   grid-template-columns: repeat(1,1fr);
 }
