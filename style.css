@@ -12,18 +12,6 @@ padding: 15px;
 
 }
 
-@screen (max-width:860px){
-  grid-template-columns: repeat(3,1fr);
-}
-
-@screen (max-width:650px){
-  grid-template-columns: repeat(2,1fr);
-}
-
-@screen (max-width:400px){
-  grid-template-columns: repeat(1,1fr);
-}
-
 .naser, .yazeed, .nayef, .khaled, .sohaib, .husam, .mohammad{
 
   background-color: white;
@@ -56,4 +44,16 @@ padding: 15px;
 }
 small{
   color: rgb(163, 158, 158);
+}
+
+@screen (max-width:860px){
+  grid-template-columns: repeat(3,1fr);
+}
+
+@screen (max-width:650px){
+  grid-template-columns: repeat(2,1fr);
+}
+
+@screen (max-width:400px){
+  grid-template-columns: repeat(1,1fr);
 }
